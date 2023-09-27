@@ -1,0 +1,156 @@
+*main{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navigation {
+    margin-top: 25px;
+    font-family: var(--font1);
+    /* height: 74px; */
+    /* background-color: var(--main-bg-color); */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.nav-left span {
+    font-size: 35px;
+    padding-top: 10px;
+    margin-top: 18px;
+}
+
+.nav-left {
+    font-size: 35px;
+    display: flex;
+}
+.nav-right{
+    display: flex;
+}
+
+.nav-left ul {
+    display: flex;
+    align-items: center;
+    margin: 0 77px;
+    font-size: 22px;
+}
+
+.nav-left ul li {
+    list-style: none;
+    margin: 0 14px;
+    font-family: var(--font2);
+    transition: all 0.3s ease-in-out;
+}
+
+.nav-left ul li a:hover {
+    font-weight: bolder;
+    color: var(--main-bg-color);
+}
+
+.nav-left ul li a {
+    color: black;
+    text-decoration: none;
+    font-family: var(--font2);
+}
+
+
+
+.content {
+    display: flex;
+    gap: 8px;
+    height: 295px;
+    /* background-color: rgb(188, 188, 232); */
+    margin-top: 12px;
+    padding: 9px;
+   
+}
+
+.content::after {
+    content: "";
+    background-image: url("../img/11.svg");
+    position: absolute;
+    width: 80vw;
+    height: inherit;
+    opacity: 0.15;
+}
+
+.footer {
+    /* height: 50px; */
+    background-color: var(--main-bg-color);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: black;
+    flex-direction: column;
+}
+
+.footer a {
+    color: white;
+    text-decoration: none;
+}
+
+
+
+
+.content-left {
+    font-family: var(--font1);
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    z-index: 1;
+}
+
+.content-right {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.content-right img {
+    height: 255px;
+    border: 2px solid black;
+    border-radius: 200px;
+}
+
+.home-article {
+    display: flex;
+    margin: 25px;
+}
+
+.home-article img {
+    width: 300px;
+}
+
+.home-article-content {
+    align-self: center;
+    padding: 25px;
+}
+
+
+.home-articles {
+    position: relative;
+    margin-top: 23px;
+    margin-bottom: 20px;
+    padding: 18px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(244, 219, 219);
+    
+}
+.year-box{
+    position: absolute;
+    width: 80px;
+    height: 150px;
+    right: 160px;
+    top: 100px
+}
+.home-article-content a{
+    text-decoration: none;
+    color: black;
+    
+}
+
+
